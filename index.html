@@ -65,7 +65,62 @@
             </div>
                 </div>
             </div>
-
+            <div id="contacto" class="formulario">
+                <h2>Registrate</h2>
+                <form>
+                    <fieldset>
+            <legend>Información Personal</legend>
+            <label for="name">Nombre completo:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="phone">Número de teléfono:</label>
+            <input type="tel" id="phone" name="phone" required>
+          </fieldset>
+    
+          
+    
+    
+          <!----------------------------------------------------------->
+          <fieldset>
+            <legend>Preferencias de Mascota</legend>
+            <label for="tipo-mascota">Tipo de mascota:</label>
+            <select id="pet-type" name="pet-type" required>
+              <option value="">Selecciona una opción</option>
+              <option value="perro">Perro</option>
+              <option value="gato">Gato</option>
+            </select>
+    
+    
+    
+    
+          <!----------------------------------------------------------->
+            <label>¿Tienes experiencia con mascotas?</label>
+            <div class="experiencia">
+              <label><input type="radio" name="experience" value="sí" required> Si</label>
+              <label><input type="radio" name="experience" value="no" required> No</label>
+            </div>
+    
+    
+    
+    
+    
+          <!----------------------------------------------------------->
+            <label for="tiempo-disponible">¿Cuánto tiempo puedes dedicarle al cuidado diario?</label>
+            <select id="time-available" name="time-available" required>
+              <option value="">Selecciona una opción</option>
+              <option value="1-2 horas">1-2 horas</option>
+              <option value="3-4 horas">3-4 horas</option>
+              <option value="mas de 4 horas">Más de 4 horas</option>
+            </select>
+          </fieldset>
+    
+          <!----------------------------------------------------------->
+          <button type="submit" class="boton-envio">Enviar</button>
+        </form>
+            </div>
 
 
 
